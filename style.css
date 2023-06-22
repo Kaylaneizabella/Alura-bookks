@@ -10,7 +10,27 @@ background-color: #EBECEE;
 
 }
 
-h1{
-    text-align: center;
-    
+.menu_hamburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url(./img/Menu.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+
+.cabeçalho{
+background-color: #c7794c;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative;
+}
+
+.container_imagem{
+padding: 10px;
+margin: 20px;
+width: 30px;
+
 }
