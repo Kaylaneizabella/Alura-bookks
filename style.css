@@ -1,17 +1,18 @@
 :root{
+    font-size: 30px;
     --cor-de-fundo:#EBECEE;
     --branco: #FFFFFF;
     --laranja: #EB9B00;
-    --azul-degrade: linear-gradient(97,54deg, #000000 35.49%, #000000 165.37%);
-    font-size: 30px;
+    --azul-degrade: linear-gradient(97,54deg, rgb(7, 163, 163) 35,49%, rgb(9, 114, 114) 165,37%);
     --fonte-principal: "Poppins";
 
+
+    padding: 30px;
 }
 
 body{
-background-color: #EBECEE;
+background-color: var(--cor-de-fundo);
 font-family: var(--fonte-principal);
-font-size: 1em;
 font-weight: 400;
 
 }
@@ -19,7 +20,7 @@ font-weight: 400;
 .menu_hamburguer {
     width: 24px;
     height: 24px;
-    background-image: url(./img/Menu.png);
+    background-image: url(./img/menu.png);
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
@@ -27,7 +28,7 @@ font-weight: 400;
 
 
 .cabeçalho{
-background-color: #354a8b;
+background-color:rgb(1, 88, 168);
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -45,7 +46,7 @@ width: 30px;
     align-items: center;
 }
 
-.container_botão:checked ~ .lita-menu {
+.container-botao:checked ~ .lista-menu {
     display: block;
 }
 
@@ -96,4 +97,28 @@ font-weight: 700;
 
 .banner-texto{
     font-weight: 500;
+}
+
+
+.banner-pesquisa {
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    color: white;
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+    background: url("./img/Pesquisa (2).svg") no-repeat;
+    background-position: 1em;
+    font-size: 50%;
+}
+
+.carrossel_titulo{
+    color: var(#1e2a50);
+    background-color: var(--branco);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1em 0 0.5em 0;
 }
