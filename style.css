@@ -1,12 +1,10 @@
 :root{
     font-size: 30px;
     --cor-de-fundo:#EBECEE;
-    --branco: #FFFFFF;
+    --branco: #ffffff;
     --laranja: #EB9B00;
     --azul-degrade: linear-gradient(97,54deg, rgb(7, 163, 163) 35,49%, rgb(9, 114, 114) 165,37%);
     --fonte-principal: "Poppins";
-
-
     padding: 30px;
 }
 
@@ -103,7 +101,7 @@ font-weight: 700;
 .banner-pesquisa {
     background-color: transparent;
     border: 1px solid var(--branco);
-    color: white;
+    color: rgb(255, 255, 255);
     border-radius: 24px;
     padding: 1em;
     width: 100%;
@@ -148,7 +146,7 @@ display: flex;
     background:#7c8bbb;
     border-radius: 15px;
     width: 80%;
-    padding: 2em;
+    padding: 10px;
     margin: 2em;
 }
 
@@ -216,9 +214,33 @@ font-size:15px ;
     }
 
     .rodape{
-        background:#7c8bbb;
+    background:#7c8bbb;
     border-radius: 15px;
-    width: 80%;
+    width: 60%;
     padding: 2em;
     margin: 2em;
+    }
+
+    .contato-titulo{
+font-size: 1em;
+
+    }
+
+    .contato-texto{
+        font-size: 20px;
+    }
+
+    .contato-email{
+        padding: 5px;
+        border-radius: 20px;
+        border: 2px solid var(--branco);
+        width: 51%;
+        text-align: center;
+    }
+
+    .contato-email::placeholder{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(0, 0, 0);
+        background: url(./img/Vector.svg)  no-repeat;
+
     }
