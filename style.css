@@ -2,7 +2,7 @@
     font-size: 30px;
     --cor-de-fundo:#EBECEE;
     --branco: #ffffff;
-    --laranja: #EB9B00;
+    --laranja: #222946;
     --azul-degrade: linear-gradient(97,54deg, rgb(7, 163, 163) 35,49%, rgb(9, 114, 114) 165,37%);
     --fonte-principal: "Poppins";
     padding: 30px;
@@ -188,8 +188,9 @@ text-align: center;
     background: #3a4569 ;
     text-align: center;
   border-radius: 10px;
-  margin: 2em,
-  ;
+  width: 80%;
+  padding: 10px;
+  margin: 2em;
   }
 
   .titulos-topicos{
@@ -209,25 +210,30 @@ color: #ffffff;
 padding: 0,9em;
 background-color: #6066a1;
 margin: 10px;
-border-radius: 10px;
+border-radius: 5px;
 font-size:15px ;
+
+
     }
 
     .rodape{
     background:#7c8bbb;
     border-radius: 15px;
-    width: 60%;
+    width: 75%;
     padding: 2em;
     margin: 2em;
+    text-align: center;
     }
 
     .contato-titulo{
 font-size: 1em;
+text-align: center;
 
     }
 
     .contato-texto{
         font-size: 20px;
+        text-align: center;
     }
 
     .contato-email{
@@ -242,5 +248,5 @@ font-size: 1em;
         font-family: Georgia, 'Times New Roman', Times, serif;
         color: rgb(0, 0, 0);
         background: url(./img/Vector.svg)  no-repeat;
-
+       
     }
